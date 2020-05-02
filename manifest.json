@@ -1,0 +1,19 @@
+{
+  "name": "adskipper",
+  "description": "Just skip ads",
+  "content_scripts": [
+    {
+      "matches": ["https://www.youtube.com/*"],
+      "js": ["contentScript.js"]
+    }
+  ],
+  "icons": {
+    "16": "icon16.png",
+    "32": "icon32.png",
+    "64": "icon64.png",
+   "128": "icon128.png",
+   "512": "icon512.png"
+  },
+  "manifest_version": 2,
+  "version": "1.0"
+}
